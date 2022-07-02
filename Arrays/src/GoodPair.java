@@ -7,6 +7,7 @@ Check if any good pair exist or not.
 public class GoodPair {
     public static int solve(int[] A, int B) {
         int n = A.length;
+//        int max = 0, min = Integer.MAX_VALUE;
         for(int i = 0; i< n; i++) {
             for(int j = i+1; j < n; j++) {
                 if(i != j && (A[i] + A[j] == B)) {
