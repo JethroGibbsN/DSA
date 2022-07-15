@@ -10,9 +10,7 @@ public class MultipleLeftRotations {
         int a = A.length;
         int[][] res = new int[b1][a];
         for (int b = 0; b < b1; b++) {
-            int d = B[b];
-            int n = a;
-            int p = 1;
+            int d = B[b], n = a, p = 1;
             int[] ab = A.clone();
             while (p <= d) {
                 int last = ab[0];
