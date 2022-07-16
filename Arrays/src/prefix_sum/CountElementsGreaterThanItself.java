@@ -1,3 +1,4 @@
+package prefix_sum;
 
 /*
 Given an Array find an element which has atleast one element greater than itself.

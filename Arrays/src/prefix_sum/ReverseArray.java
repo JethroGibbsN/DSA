@@ -1,3 +1,5 @@
+package prefix_sum;
+
 import java.util.Arrays;
 
 public class ReverseArray {

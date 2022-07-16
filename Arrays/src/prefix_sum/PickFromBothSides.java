@@ -1,4 +1,4 @@
-/*
+package prefix_sum;/*
 You are given an integer array A of size N.
 
 You have to pick B elements in total. Some (possibly 0) elements from left end of array A and some (possibly 0) from the right end of array A to get the maximum sum.

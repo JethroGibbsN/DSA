@@ -1,3 +1,5 @@
+package prefix_sum;
+
 import java.util.Scanner;
 
 /*

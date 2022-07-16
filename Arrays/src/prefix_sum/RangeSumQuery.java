@@ -1,4 +1,4 @@
-/*
+package prefix_sum;/*
 You are given an integer array A of length N.
 You are also given a 2D integer array B with dimensions M x 2, where each row denotes a [L, R] query.
 For each query, you have to find the sum of all elements from L to R indices in A (1 - indexed).
