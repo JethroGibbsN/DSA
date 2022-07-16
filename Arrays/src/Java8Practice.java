@@ -1,10 +1,9 @@
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 //Java 8 Practice
 import static java.util.stream.Collectors.*;
 
-public class Test2 {
+public class Java8Practice {
     public static void main(String[] args) {
         List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5);
         Integer sum = integers.stream()
