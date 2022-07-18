@@ -41,5 +41,7 @@ public class Java8Practice {
 //        Map<Integer, Set<String>> gb = numS.stream()
 //                .collect(Collectors.groupingBy(String::length, Collectors.toSet()));
 //        System.out.println(op.get());
+        String o = "bnb";
+        System.out.println(o.replace("-", ""));
     }
 }  
