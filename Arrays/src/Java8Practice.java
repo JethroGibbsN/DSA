@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 //Java 8 Practice
 import static java.util.stream.Collectors.*;
 
@@ -43,5 +44,9 @@ public class Java8Practice {
 //        System.out.println(op.get());
         String o = "bnb";
         System.out.println(o.replace("-", ""));
+        ArrayList ar = new ArrayList<>();
+        IntStream.rangeClosed(1, 8)
+                .forEach(i -> ar.add(i));
+        System.out.println(ar);
     }
 }  
