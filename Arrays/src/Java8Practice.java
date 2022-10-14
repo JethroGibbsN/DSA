@@ -5,6 +5,10 @@ import java.util.stream.IntStream;
 import static java.util.stream.Collectors.*;
 
 public class Java8Practice {
+
+    Java8Practice() {
+        super();
+    }
     public static void main(String[] args) {
         List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5);
         Integer sum = integers.stream()
